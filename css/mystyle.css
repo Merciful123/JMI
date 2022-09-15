@@ -1,0 +1,392 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One|Merriweather|Lato|Roboto|PT+Sans');
+*{
+	padding:0;
+	margin:0;
+}
+body {
+    height: 100%;
+	background-color: #FFF;
+	background-repeat: no-repeat;
+	font-size:15px;
+	font-family:"Roboto", Arial, Helvetica, sans-serif;
+}
+h1	{ 
+	text-transform:uppercase;
+	font-family:'Roboto', Arial, Helvetica, sans-serif;
+	font-size:2.2em !important;
+	line-height:1.1em;
+}
+h2	{ 
+	font-family: "Roboto", Times New Roman, Times, serif ;
+	font-size:2em;
+	color:#666 !important;
+}
+h3, h4, h5, h6	{
+	font-family:"Roboto", Arial, Helvetica, sans-serif ;
+}
+h3	{font-size:20px; text-transform:uppercase; color:#525252;}
+h4	{font-size:18px;}
+h5	{font-size:16px;}
+
+.header	{
+	background:#FFF;
+	min-height:84px;
+}
+a.logo{
+	text-indent:-9999px;
+	background: url(../images/jmi-logo.jpg) no-repeat;
+	width:265px;
+	height:80px;
+	margin-top:15px;
+	display:block;
+}
+a.brandLogo{
+	text-indent:-9999px;
+	background: url(../images/jmi-brand-logo.jpg) no-repeat;
+	width:280px;
+	height:80px;
+	margin-top:27px;
+	display:block;
+}
+.social	{
+	font-size:25px;
+	text-align:right;
+	line-height:30px;
+}
+.social-foot	{
+	font-size:32px;
+	text-align:left;
+	line-height:40px;
+	
+}
+.social-foot i	{color:#FFF !important;}
+.top_menu li	{
+	width:200px;
+	min-height:74px;
+	background-color: #007db6;
+    border-right: 1px solid #005a83;
+    display: inline-block;
+    float: right;
+    list-style-type: none;
+    overflow-x: hidden;
+    padding:9px 0;
+    position: relative;
+    text-align: center;
+    transition: background-color 300ms ease-in-out 0s;
+	color:#FFF;
+}
+.top_menu li:last-child {
+	border-left: 1px solid #005a83;
+}
+
+.top_menu li .ub-icon {
+    display: block;
+    font-size: 3.5rem;
+    margin-bottom:-1px;
+	padding:8px 0 0 0;
+	float:left;
+	width:25%;
+    text-align: center;
+    transition: all 300ms ease-in-out 0s;
+}
+.top_menu li .text {
+    display: block;
+    font-size:13px;
+	padding:16px 0 0 0;
+	float:left;
+	width:75%;
+}
+.top_menu li .textPh {
+    display: block;
+    font-size:12px;
+	padding:10px 0 0 0;
+	float:left;
+	width:75%;
+}
+
+/*--------------------- Navigation -------------------*/
+.navbar	{
+	margin-bottom:0px;
+	height:20px !important;
+}
+.navbar-nav { 
+	margin:15px 0 10px 0;
+	font-family:"Merriweather", Times New Roman, Times, serif;
+	text-transform: uppercase;
+	font-size:12px
+}
+.navbar-nav > li {
+	border-right:1px dotted #06F;
+	height:20px;
+}
+.navbar-nav > li:last-child	{
+	border:none;
+}
+.navbar-nav > li a	{
+	padding-bottom:0px;
+	padding-top:0px;
+	height:20px;	
+}
+.nav > li a:hover {
+	background: none;
+}
+
+.navbar-toggle {
+	border:1px solid #333;
+}
+.navbar-collapse { margin-left:-15px !important; margin-right:-15px !important;}
+/*--------------------- /Navigation -------------------*/
+.coe{
+	background-color:#fff;
+	margin-top: -30px;
+    position: relative;
+	padding:20px;
+}
+.coe hr {
+    border-top: 1px solid #C00;
+}
+.gray{ color:#84888f; }
+.banner {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   /* height:330px;*/
+	/*border-top:1px solid #0e7a3e;*/
+	border-bottom:1px solid #0e7a3e;
+    overflow: hidden;
+    padding:1px 0;
+    position: relative;
+}
+.inner_banner{
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:150px;
+	border-top:1px solid #0e7a3e;
+	border-bottom:1px solid #0e7a3e;
+    overflow: hidden;
+    padding:3px 0;
+    position: relative;
+}
+.sideMenu	{
+	border:1px solid #84888f;
+	border-radius:3px;
+	padding:2px;
+}
+
+.sideMenu ul li {
+	list-style:none;	
+}
+.sideMenu ul li.head	{
+	background:#2d9d5f;
+	color:#FFF;
+	border-radius:3px 3px 0 0;
+	font-family:"Merriweather", Arial, Helvetica, sans-serif;
+	font-size:24px;
+	padding:5px 0 5px 10px;	
+}
+.sideMenu ul li {
+	padding:2px 0;
+	border-bottom:1px dotted #CCC;
+}
+.sideMenu ul li:last-child	{
+	border: none;
+}
+.sideMenu ul li a {
+	padding:2px 7px;
+	font-family:"Roboto", Arial, Helvetica, sans-serif;
+	display:block;
+	font-size:13px;
+	color:#84888f;
+	text-decoration:none;
+}
+.sideMenu ul li a:hover	{
+	color:#007db6;
+}
+.quick-links {
+    margin-top: -30px;
+    position: relative;
+    z-index: 100;
+}
+.quick-links {
+    margin-bottom: 30px;
+}
+.quick-links h2	{
+	font-family:"Fjalla One", Arial, Helvetica, sans-serif !important;
+	color:#FFF  !important;
+}
+.quick-links hr { margin:10px 0;}
+
+@media (max-width:768px){
+	.quick-links { margin-top: 0px;}
+}
+.jmiMember	{
+	display:block;
+	max-width:80%;
+	height:auto;
+	border:1px solid #FFF;
+	-webkit-box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.3);
+	box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.3);
+}
+.details h4{
+	margin-top: 0px !important;
+	color:#3d7757;
+	font-family:"PT Sans",Arial,Helvetica,sans-serif;
+	font-weight:bold;
+}
+.mytab	{
+	background:#f9f9f9;
+	color:#828784;
+	padding-bottom:10px;
+	border-bottom:1px solid #b5b5b5;
+	text-align:justify;		
+}
+.mytab h3	{ color:#2d9d5f !important;}
+.img-thumbnail { padding:0px;}
+.tabOne	{
+	background:#41b6e6;
+	color:#FFF;
+}
+.tabTwo {
+	background:#e35220;
+	color:#FFF;
+}
+.tabThree {
+	background:#ffb81c;
+	color:#FFF;
+	border-bottom:5px solid #333;
+}
+.tabFour {
+	background:#b7c935;
+	color:#FFF;
+}
+.tabOne, .tabTwo,.tabThree, .tabFour	{
+	padding-bottom:10px;
+	min-height:192px;
+}
+.tabOne a, .tabTwo a,.tabThree a, .tabFour a	{
+	color:#f6f6f6;
+	font-weight:bold;
+}
+.tabOne a:hover, .tabTwo a:hover,.tabThree a:hover, .tabFour a:hover	{
+	color:#313131;
+	text-decoration:none;
+}
+.panel-default > .panel-heading {
+	background-color: #007db6;
+    border-color: #ddd;
+    color: #FFF;
+}
+.panel { margin-bottom:10px;}
+.panel .panel-title a { 
+	font-family:"Fjalla One", Verdana, Geneva, sans-serif;
+	font-size:18px;
+}
+.panel .panel-title a:hover, .panel .panel-title a:focus	{
+	text-decoration:none;
+	color:#FC0;
+}
+.news li { 
+	list-style-type:none;  
+	margin-bottom:3px;
+	display: block;
+	float:left;
+	width:100%;
+	margin-bottom:5px;
+}
+.news li .news-date { 
+	float:left; 
+	width:19%; 
+	border-right:3px solid #ffb81c;
+}
+.news li a 	{ text-decoration:none;}
+.news li a:hover	{ color:#333;}
+.news li .news-data { float:left; width:80%; padding-left:10px; font-size:13px;}
+h3.news	{
+	border-bottom:3px solid #2d9d5f;
+	font-size:28px;
+	font-weight:700;
+	color:#000;
+	margin-top:5px;
+	font-family:"PT Sans", Arial, Helvetica, sans-serif
+}
+.news-item {
+    border-bottom: 1px dotted #555;
+    margin: 0;
+    padding: 4px;
+}
+.admList {
+	list-style-type:none;
+}
+.admList li	{
+	border-bottom:1px dotted #0e7a3e;
+}
+.admList li	a	{ color:#666; text-decoration:none;}
+.admList li	a:hover	{ color:#0e7a3e;}
+footer	{
+	font-family:"Roboto", Arial, Helvetica, sans-serif;
+	background:#353d47;
+	color:#FFF;
+	margin-top:15px;
+	border-top:2px solid #142230;
+}
+footer h3	{color:#fff; text-transform:none !important}
+
+.footerBot {
+    background: #353d47;
+    color: #ffb81c !important;
+    padding: 10px;
+}
+a.footLink {
+    color: #fff;
+    font-size: 0.9em;
+    text-decoration: none;
+}
+a.footLink:hover	{ color:#FC0;}
+.footerList li  {
+	list-style-type:none;
+}
+.footerList li a {
+	list-style-type:none;
+	color:#f2efea;
+    font-size:14px;
+}
+.footerList li a:hover	{
+	text-decoration:none;
+	color:#142230;
+}
+
+  /*top buttons start*/
+.top_buttons{text-align: right;}
+.top_buttons li {
+    text-decoration: none;
+    display: inline-block;
+    padding: 0;
+    margin: 2px 0 0 0;
+}
+.top_buttons li:last-child {
+    text-decoration: none;
+    display: inline-block;
+    padding: 0;
+    margin: 2px 0 0 0;
+}
+.top_buttons li a {
+    color: #fff;
+    padding: 6px 18px;
+    background-color: #077842;
+    border-radius: 0 0 5px 5px;
+    font-size:14px;
+}
+  /*top buttons end*/
+
+li img{float:left;margin-top:6px}
+
+.office_message {font-family: "monotype Corsiva"; font-size: 17px; color: #3399CC; text-align:justify}
+
+@media (max-width:768px) {
+	.sideMenu ul li a { font-size:15px;}
+	.office_message { font-size: 19px;}
+	}
